@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "ghostware",
+  "version": "${version}",
+  "name": "Ghostware",
+  "description": "A combat addon for Meteor Client.",
+  "authors": [
+    "GhostTypes",
+    "Kiriyaga",
+    "EurekaEffect"
+  ],
+  "contact": {
+    "repo": "https://github.com/GhostTypes/orion"
+  },
+  "icon": "assets/ghostware/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "me.ghosttypes.ghostware.Ghostware"
+    ]
+  },
+  "mixins": [
+    "gw.mixins.json"
+  ],
+  "accessWidener": "gw.accesswidener",
+  "depends": {
+    "java": ">=16",
+    "minecraft": ">=1.17.1",
+    "meteor-client": ">0.4.3"
+  }
+}

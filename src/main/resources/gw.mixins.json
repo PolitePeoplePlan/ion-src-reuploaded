@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "me.ghosttypes.ghostware.mixins",
+  "compatibilityLevel": "JAVA_16",
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "EntityMixin",
+    "FirstPersonRendererAccessor",
+    "HeldItemRenderMixin",
+    "NametagMixin",
+    "PlayerInteractEntityC2SPacketAccessor",
+    "accessors.PlayerInteractEntityC2SPacketAccessor"
+  ]
+}
